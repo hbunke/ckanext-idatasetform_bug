@@ -132,7 +132,7 @@ class ExampleIDatasetFormPlugin(plugins.SingletonPlugin,
                 tk.get_validator('ignore_missing')]
             })
 
-        #XXX this is the additional field for bug demo.
+        #XXX this is the additional field for bug demo XXX
         schema.update({
             'another_custom_text' : [
                 tk.get_converter('convert_from_extras'),
